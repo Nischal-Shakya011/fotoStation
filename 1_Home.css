@@ -1,0 +1,120 @@
+body{
+	margin: 2px;
+	font-size: 14px;
+
+    animation-name: change_background;
+    animation-duration: 20s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+}
+@keyframes change_background{
+    0%{
+        background: url("https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/2/nepali-beauty--yvette-depaepe.jpg");
+    background-size: cover;
+    }
+ 50%{
+    background: url("https://cdn.pixabay.com/photo/2022/10/19/02/48/girl-7531494__340.jpg");
+    background-size: cover;
+ }
+    100%{
+        background: url("https://cdn.pixabay.com/photo/2017/10/31/12/23/people-2905117__340.jpg");
+        background-size:cover;
+    }
+
+}
+.nav{
+height: 50px;
+width: 100%;
+margin: 0%;
+padding: auto;
+background-color: #343B3A;
+}
+.li{
+    margin-left: 80px ;
+    border: 2px solid transparent;
+	border-radius: 0.3em;
+	text-decoration: none;
+	padding: 0.4em;
+	color: rgb(247, 231, 231);
+	font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    transition: all 0.5s ease;
+}
+.li:hover{
+    background-color: rgba(166, 153, 152,0.5);
+    }
+
+.fa-solid{
+    font-size: 30px;
+    color: #9EF9F0;
+    margin-left: 10px;
+margin-top: 10px;
+}
+.logo{
+    text-decoration: none;
+    margin-top: 10px ;
+    margin-left: 10px;
+}
+.logo b{
+    color: #C1C954;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+.logo i{
+    color: #9EF9F0;
+    font-size: 25px;
+}
+#book{
+    background-color: #199004;
+    font-style: normal;
+    margin-left: 170px;
+    transition: all 0.5s ease;
+
+}
+#book:hover{
+    background-color: rgba(19, 112, 5, 0.7);
+}
+.para{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(55, 68, 82, 0.65);
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 15px;
+    margin-left: 1%;
+    margin-top:18%;
+}
+.top{
+    color: rgb(200, 253, 7);
+    font-size: 40px;
+    font-weight: 500;
+    font-style: inherit;
+}
+#ico{
+    font-size: 80px;
+}
+.mid b{
+    color: #C1C954;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100px;
+    font-weight: 1000;
+}
+.mid i{
+    color: #9EF9F0;
+    font-size: 85px;
+}
+.bottom{
+   color: #9EF9F0;
+   font-size: 18px;
+   font-family: cursive; 
+}
+.bottom i{
+    color: rgb(200, 253, 7);
+    text-align: right;
+    text-decoration: underline;
+    margin: 40px;
+}

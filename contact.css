@@ -1,0 +1,149 @@
+body{
+	margin: 2px;
+	font-size: 14px;
+background-color: #B8DED4;
+}
+.nav{
+height: 50px;
+width: 1360px;
+position: absolute;
+top: 0%;
+left: 0%;
+padding: auto;
+background-color: #343B3A;
+}
+
+.li{
+    margin-left: 80px ;
+    border: 2px solid transparent;
+	border-radius: 0.3em;
+	text-decoration: none;
+	padding: 0.4em;
+	color: rgb(247, 231, 231);
+	font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    transition: all 0.5s ease;
+}
+#cont{
+    background-color: rgba(166, 153, 152,0.5);
+}
+.li:hover{
+    background-color: rgba(166, 153, 152,0.5);
+    }
+
+.fa-solid{
+    font-size: 30px;
+    color: #9EF9F0;
+    margin-left: 10px;
+margin-top: 10px;
+}
+.logo{
+    text-decoration: none;
+    margin-top: 10px ;
+    margin-left: 10px;
+}
+.logo b{
+    color: #C1C954;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+.logo i{
+    color: #9EF9F0;
+    font-size: 25px;
+}
+#book{
+    background-color: #199004;
+    font-style: normal;
+    margin-left: 170px;
+    transition: all 0.5s ease;
+
+}
+#book:hover{
+    background-color: rgba(19, 112, 5, 0.7);
+}
+.info{
+    width: 400px;
+    height: 430px;
+    position: absolute;
+    left: 45%;
+    top: 20%;
+    background-color: #2a2c64;
+    padding: 10px 15px;
+}
+.info h1{
+    color: #F0F9BF;
+    text-align: center;
+}
+#ic1{
+    color:rgba(255, 233, 232, 0.5) ;
+    font-size: 20px;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+.loc{
+    color:  #F0F9BF;
+    font-size: 14px;
+    position: absolute;
+    top: 100px;
+    left: 70px;
+}
+#phn{
+    color:rgba(255, 233, 232, 0.5) ;
+    font-size: 20px;
+    position: absolute;
+    top: 160px;
+    left: 30px;
+}
+.co{
+    color:  #F0F9BF;
+    font-size: 14px;
+    position: absolute;
+    top: 170px;
+    left: 70px;   
+}
+#eml{
+    color:rgba(255, 233, 232, 0.5) ;
+    font-size: 20px;
+    position: absolute;
+    top: 217px;
+    left: 30px; 
+}
+.email{
+    color:  #F0F9BF;
+    font-size: 14px;
+    position: absolute;
+    top: 230px;
+    left: 70px; 
+}
+.info h2{
+    color:  #F0F9BF;
+    text-align: center;
+    position: absolute;
+    top: 290px;
+    left: 90px;
+}
+#facebook{
+    color:rgba(167, 152, 151, 0.5) ;
+    font-size: 30px;
+    position: absolute;
+    top: 350px;
+    left: 60px; 
+}
+#instagram{
+    color:rgba(167, 152, 151, 0.5) ;
+    font-size: 30px;
+    position: absolute;
+    top: 350px;
+    left: 130px; 
+}
+#twitter{
+    color:rgba(167, 152, 151, 0.5) ;
+    font-size: 30px;
+    position: absolute;
+    top: 350px;
+    left: 200px;    
+}
+
